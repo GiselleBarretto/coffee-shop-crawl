@@ -1,0 +1,30 @@
+Project Scope:
+
+1. City: Washington DC
+2. Search term: Coffee
+3. Target number of businesses: 100-200 coffee shops
+
+Main analytical question
+Which Washington, D.C. coffee shops offer the best combination of strong ratings, reasonable prices, and reliable review volume?
+
+Secondary questions
+1. Which areas have the highest-rated coffee shops?
+2. Are expensive coffee shops rated better?
+3. Which shops are popular but poorly rated?
+4. Which shops are hidden gems?
+5. Do independent shops outperform chains?
+6. Where are the best-value coffee clusters?
+
+Did the API return genuine coffee shops? Yes
+Are there duplicate businesses? Yes
+Are there shops outside Washington, D.C.? Yes (VA and MD)
+Are prices missing? Yes
+Are latitude and longitude populated? Yes, all populated
+
+What is Mojibake?
+
+Value Score - Custom Score
+It's a score that combines ratings, review volume, and price level to determine the best value coffee shops in the area.
+Ratings - 80 points
+Reviews - 20 points. Reviews do not directly measure quality; they support the rating given to a restaurant. We take the logarithm of reviews. 
+Price - We penalize price by 8 points per additional price tier. 
