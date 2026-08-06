@@ -82,6 +82,15 @@ The **Value Score** combines:
 - Review credibility (using a logarithmic transformation of review count)
 - Price level
 
+- **Customer Rating (up to 80 points)**  
+  Customer rating is the strongest indicator of quality, so it contributes the largest portion of the score. Ratings are converted from a 5-point scale to a maximum of 80 points.
+
+- **Review Credibility (up to 20 points)**  
+  Customer ratings become more reliable as more people leave reviews. However, using the raw number of reviews would give an unfair advantage to very popular businesses with thousands of reviews. To address this, I   applied a logarithmic transformation to the review count. This rewards businesses with a strong review history while ensuring that extremely high review counts do not dominate the Value Score.
+
+- **Price Penalty (0–24 points)**  
+  Higher prices reduce the overall value score. Price tiers are converted into numeric levels, with budget-friendly shops receiving no penalty. Each increase in price tier subtracts 8 points from the final score.
+
 This provides a balanced measure of overall value instead of relying on ratings alone.
 
 ### 4. Database Design
