@@ -22,6 +22,7 @@ Are prices missing? Yes
 Are latitude and longitude populated? Yes, all populated
 
 What is Mojibake?
+In Japanese "Moji means 'characters' and bake means 'to become garbled or transformed.' Mojibake refers to garbled text caused by incompatible character encodings between different programs, tools, or operating systems."
 
 Value Score - Custom Score
 It's a score that combines ratings, review volume, and price level to determine the best value coffee shops in the area.
