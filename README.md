@@ -118,15 +118,11 @@ The final Tableau dashboard summarizes the key findings through interactive visu
 
 ---
 
-## Dashboard
-
-**Interactive Dashboard**
-
-*Add your Tableau Public link here*
-
 **Dashboard Preview**
 
-*Insert dashboard screenshot here*
+
+<img width="1290" height="851" alt="image" src="https://github.com/user-attachments/assets/12f2d645-a95a-44f5-b38f-265d03dd2ddb" />
+
 
 ---
 
