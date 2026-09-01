@@ -131,7 +131,7 @@ The final Tableau dashboard summarizes the key findings through interactive visu
 Some of the insights explored in this project include:
 
 - Higher prices do not always correspond to higher customer ratings.
-- Independent coffee shops often perform as well as—or better than—large chains.
+- Independent coffee shops often perform as well as or better than large chains.
 - Some highly reviewed businesses receive surprisingly low customer ratings.
 - Several lesser-known coffee shops provide excellent value despite having fewer reviews.
 
